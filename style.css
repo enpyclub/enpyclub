@@ -1,34 +1,35 @@
+/* Estilos básicos y animaciones existentes */
 html, body {
     margin: 0;
     height: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-html{
+html {
     background-image: url('./images/gadsden.png');
-    background-size:cover;
+    background-size: cover;
 }
 
 body {
-    background: linear-gradient(-45deg, rgb(64, 115, 199,0.9), rgba(207,58,58, 0.9));
+    background: linear-gradient(-45deg, rgba(64, 115, 199, 0.9), rgba(207, 58, 58, 0.9));
     background-size: 400% 400%;
     animation: gradient 8s ease infinite;
-    padding-top:35px;
-    padding-bottom:35px;
-    height:fit-content;
-    min-height:100%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    height: fit-content;
+    min-height: 100%;
 }
-  
+
 @keyframes gradient {
-      0% {
-          background-position: 0% 50%;
-      }
-      50% {
-          background-position: 100% 50%;
-      }
-      100% {
-          background-position: 0% 50%;
-      }
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 :root {
@@ -36,18 +37,18 @@ body {
     --delay: .3s;
 }
 
-.description, .source{
-    color:white;
-    text-align:center;
+.description, .source {
+    color: white;
+    text-align: center;
     margin: 27px auto;
-    margin-top:10px;
-    width:90%;
+    margin-top: 10px;
+    width: 90%;
     max-width: 500px;
 }
 
-.source{
-    font-size:small;
-    margin-top:50px;
+.source {
+    font-size: small;
+    margin-top: 50px;
 }
 
 .profilePicture, .profilePicture img {
@@ -108,3 +109,18 @@ body {
     color: rgba(0, 0, 0, 0.5);
 }
 
+/* Estilo especial para el enlace de WhatsApp */
+.link.whatsapp {
+    background-color: #25D366;
+    color: white;
+}
+
+@media (hover: hover) {
+    .link.whatsapp:hover {
+        background-color: #1EBE5A;
+    }
+}
+
+.link.whatsapp:active {
+    background-color: #1EBE5A;
+}
