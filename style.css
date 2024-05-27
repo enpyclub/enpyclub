@@ -2,7 +2,7 @@
 html, body {
     margin: 0;
     height: 100%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 html {
@@ -131,4 +131,80 @@ body {
     font-weight: normal;
     font-size: 0.9rem;
     color: var(--accentColor);
+}
+
+/* Colores característicos para cada plataforma */
+.link.discord {
+    background-color: #7289DA;
+    color: white;
+}
+
+@media (hover: hover) {
+    .link.discord:hover {
+        background-color: #5A73B6;
+    }
+}
+
+.link.discord:active {
+    background-color: #5A73B6;
+}
+
+.link.facebook {
+    background-color: #1877F2;
+    color: white;
+}
+
+@media (hover: hover) {
+    .link.facebook:hover {
+        background-color: #155DBA;
+    }
+}
+
+.link.facebook:active {
+    background-color: #155DBA;
+}
+
+.link.instagram {
+    background-color: #E4405F;
+    color: white;
+}
+
+@media (hover: hover) {
+    .link.instagram:hover {
+        background-color: #C7354F;
+    }
+}
+
+.link.instagram:active {
+    background-color: #C7354F;
+}
+
+.link.twitter {
+    background-color: #1DA1F2;
+    color: white;
+}
+
+@media (hover: hover) {
+    .link.twitter:hover {
+        background-color: #0A85D0;
+    }
+}
+
+.link.twitter:active {
+    background-color: #0A85D0;
+}
+
+.link.youtube {
+    background-color: #FF0000;
+    color: white;
+}
+
+@media (hover: hover) {
+    .link.youtube:hover {
+        background-color: #CC0000;
+    }
+}
+
+.link.youtube:active {
+    background-color: #CC0000;
 }
