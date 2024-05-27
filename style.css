@@ -124,3 +124,11 @@ body {
 .link.whatsapp:active {
     background-color: #1EBE5A;
 }
+
+/* Estilo para la descripción de los enlaces */
+.link-description {
+    display: block;
+    font-weight: normal;
+    font-size: 0.9rem;
+    color: var(--accentColor);
+}
